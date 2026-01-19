@@ -1,0 +1,19 @@
+{
+    "name": "giantpeach/acf-relative-urls",
+    "description": "Stores ACF link/URL fields as relative paths for environment portability",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giant Peach",
+            "email": "dev@giantpeach.agency"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "composer/installers": "^2.0"
+    },
+    "autoload": {
+        "files": ["acf-relative-urls.php"]
+    }
+}
